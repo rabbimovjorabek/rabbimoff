@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #eaecf0;
+}
+.main{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px auto;
+    border: 0px solid;
+    border-radius: 25px;
+}
+.main-list input{
+    padding-left: 10px ;
+    font-size: 20px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 30px 0px 10px 0px;
+}
+.main-list p{
+    font-size: 18px;
+}
+.main-list .repeat{
+    margin-bottom: 25px !important;
+}
+h1{
+    text-align: center;
+    margin: 50px 0px 30px;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#termsOfService{
+    width: 30px;
+    height: auto;
+    align-items: center;
+    margin-top: 10px !important;
+}
+.terms-p{
+    align-items: center;
+
+}
+.submit{
+    width: 50px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.submit a{
+    width: auto;
+    height: 10px;
+    color: white;
+    background-color: rgb(48, 137, 253);
+    margin-top: 35px !important;
+    padding: 10px 10px;
+    border: 1px solid rgb(48, 137, 253);
+    border-radius: 4px;
+}
+.main-img{
+    align-items: center;
+}
